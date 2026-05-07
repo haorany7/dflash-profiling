@@ -1,0 +1,722 @@
+[
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 1,
+    "latency_ms": 22.38
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 2,
+    "latency_ms": 25.241
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 4,
+    "latency_ms": 25.283
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 8,
+    "latency_ms": 25.462
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 16,
+    "latency_ms": 25.319
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 32,
+    "latency_ms": 25.527
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 64,
+    "latency_ms": 25.199
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 128,
+    "latency_ms": 24.969
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 256,
+    "latency_ms": 24.614
+  },
+  {
+    "type": "target",
+    "context_len": 128,
+    "block_size": 512,
+    "latency_ms": 24.762
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 1,
+    "latency_ms": 22.344
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 2,
+    "latency_ms": 25.384
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 4,
+    "latency_ms": 25.522
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 8,
+    "latency_ms": 25.556
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 16,
+    "latency_ms": 25.62
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 32,
+    "latency_ms": 25.392
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 64,
+    "latency_ms": 25.255
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 128,
+    "latency_ms": 25.117
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 256,
+    "latency_ms": 24.637
+  },
+  {
+    "type": "target",
+    "context_len": 256,
+    "block_size": 512,
+    "latency_ms": 25.104
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 1,
+    "latency_ms": 22.608
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 2,
+    "latency_ms": 25.261
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 4,
+    "latency_ms": 25.385
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 8,
+    "latency_ms": 25.282
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 16,
+    "latency_ms": 25.463
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 32,
+    "latency_ms": 25.424
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 64,
+    "latency_ms": 25.336
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 128,
+    "latency_ms": 25.193
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 256,
+    "latency_ms": 24.694
+  },
+  {
+    "type": "target",
+    "context_len": 512,
+    "block_size": 512,
+    "latency_ms": 25.703
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 1,
+    "latency_ms": 22.763
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 2,
+    "latency_ms": 25.467
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 4,
+    "latency_ms": 25.669
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 8,
+    "latency_ms": 25.525
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 16,
+    "latency_ms": 25.633
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 32,
+    "latency_ms": 25.709
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 64,
+    "latency_ms": 25.446
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 128,
+    "latency_ms": 25.215
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 256,
+    "latency_ms": 24.868
+  },
+  {
+    "type": "target",
+    "context_len": 1024,
+    "block_size": 512,
+    "latency_ms": 27.136
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 1,
+    "latency_ms": 22.706
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 2,
+    "latency_ms": 25.509
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 4,
+    "latency_ms": 25.528
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 8,
+    "latency_ms": 25.494
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 16,
+    "latency_ms": 25.586
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 32,
+    "latency_ms": 25.701
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 64,
+    "latency_ms": 25.35
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 128,
+    "latency_ms": 25.15
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 256,
+    "latency_ms": 24.726
+  },
+  {
+    "type": "target",
+    "context_len": 2048,
+    "block_size": 512,
+    "latency_ms": 29.874
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 1,
+    "latency_ms": 22.76
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 2,
+    "latency_ms": 25.397
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 4,
+    "latency_ms": 25.473
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 8,
+    "latency_ms": 25.413
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 16,
+    "latency_ms": 25.434
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 32,
+    "latency_ms": 25.501
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 64,
+    "latency_ms": 25.168
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 128,
+    "latency_ms": 25.395
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 256,
+    "latency_ms": 28.295
+  },
+  {
+    "type": "target",
+    "context_len": 4096,
+    "block_size": 512,
+    "latency_ms": 35.426
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 1,
+    "latency_ms": 3.379
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 2,
+    "latency_ms": 3.438
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 4,
+    "latency_ms": 3.434
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 8,
+    "latency_ms": 3.428
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 16,
+    "latency_ms": 3.426
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 32,
+    "latency_ms": 3.448
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 64,
+    "latency_ms": 3.406
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 128,
+    "latency_ms": 3.399
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 256,
+    "latency_ms": 3.33
+  },
+  {
+    "type": "draft",
+    "context_len": 128,
+    "block_size": 512,
+    "latency_ms": 4.363
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 1,
+    "latency_ms": 3.361
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 2,
+    "latency_ms": 3.419
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 4,
+    "latency_ms": 3.398
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 8,
+    "latency_ms": 3.4
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 16,
+    "latency_ms": 3.432
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 32,
+    "latency_ms": 3.407
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 64,
+    "latency_ms": 3.393
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 128,
+    "latency_ms": 3.385
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 256,
+    "latency_ms": 3.298
+  },
+  {
+    "type": "draft",
+    "context_len": 256,
+    "block_size": 512,
+    "latency_ms": 4.432
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 1,
+    "latency_ms": 3.41
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 2,
+    "latency_ms": 3.39
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 4,
+    "latency_ms": 3.378
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 8,
+    "latency_ms": 3.395
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 16,
+    "latency_ms": 3.434
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 32,
+    "latency_ms": 3.423
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 64,
+    "latency_ms": 3.366
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 128,
+    "latency_ms": 3.375
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 256,
+    "latency_ms": 3.292
+  },
+  {
+    "type": "draft",
+    "context_len": 512,
+    "block_size": 512,
+    "latency_ms": 4.539
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 1,
+    "latency_ms": 3.421
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 2,
+    "latency_ms": 3.423
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 4,
+    "latency_ms": 3.416
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 8,
+    "latency_ms": 3.452
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 16,
+    "latency_ms": 3.464
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 32,
+    "latency_ms": 3.458
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 64,
+    "latency_ms": 3.4
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 128,
+    "latency_ms": 3.366
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 256,
+    "latency_ms": 3.453
+  },
+  {
+    "type": "draft",
+    "context_len": 1024,
+    "block_size": 512,
+    "latency_ms": 4.922
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 1,
+    "latency_ms": 3.413
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 2,
+    "latency_ms": 3.4
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 4,
+    "latency_ms": 3.418
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 8,
+    "latency_ms": 3.402
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 16,
+    "latency_ms": 3.4
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 32,
+    "latency_ms": 3.417
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 64,
+    "latency_ms": 3.429
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 128,
+    "latency_ms": 3.536
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 256,
+    "latency_ms": 4.068
+  },
+  {
+    "type": "draft",
+    "context_len": 2048,
+    "block_size": 512,
+    "latency_ms": 5.535
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 1,
+    "latency_ms": 4.164
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 2,
+    "latency_ms": 4.468
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 4,
+    "latency_ms": 4.494
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 8,
+    "latency_ms": 4.539
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 16,
+    "latency_ms": 4.593
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 32,
+    "latency_ms": 4.621
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 64,
+    "latency_ms": 4.658
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 128,
+    "latency_ms": 4.757
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 256,
+    "latency_ms": 5.291
+  },
+  {
+    "type": "draft",
+    "context_len": 4096,
+    "block_size": 512,
+    "latency_ms": 6.799
+  }
+]
