@@ -286,6 +286,30 @@ def main():
 
     console.print(table_ratio)
 
+    # --- Print PTD/PTV percentage table (paper appendix style) ---
+    # Per-token drafting latency (PTD) = draft_latency / bs
+    # Per-token verification latency (PTV) = target_latency / bs
+    # Ratio r = PTD / PTV = draft_latency / target_latency (bs cancels)
+    table_ptd = Table(title="PTD / PTV (%) -- per-token drafting cost / per-token verification cost")
+    table_ptd.add_column("context_len", style="cyan")
+    for bs in args.block_sizes:
+        table_ptd.add_column(f"bs={bs}", justify="right")
+
+    for ctx_len in args.context_lengths:
+        row = [str(ctx_len)]
+        for bs in args.block_sizes:
+            t = target_map.get((ctx_len, bs))
+            d = draft_map.get((ctx_len, bs))
+            if t and d and t > 0:
+                pct = d / t * 100
+                style = "green" if pct < 20 else "yellow" if pct < 30 else "red"
+                row.append(f"[{style}]{pct:.1f}%[/{style}]")
+            else:
+                row.append("-")
+        table_ptd.add_row(*row)
+
+    console.print(table_ptd)
+
     # --- Save results ---
     with open(args.output, "w") as f:
         json.dump(results, f, indent=2)
